@@ -1,0 +1,50 @@
+.for__admin {
+  margin-top: 30px;
+}
+.for__admin h2 span {
+  color: #FF565E;
+}
+.for__admin .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.for__admin .actions a {
+  width: 240px;
+  height: 70px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: #24282E;
+  text-decoration: none;
+  color: #fff;
+}
+.for__admin .actions a:first-child {
+  margin-left: 0;
+}
+.for__admin .actions a .icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.for__admin .actions a .content {
+  margin-left: 10px;
+}
+.for__admin .actions a .red {
+  background-color: #FF565E;
+}
+.for__admin .actions a .orange {
+  background-color: #FF8A34;
+}
+.for__admin .actions a .green {
+  background-color: #25C685;
+}
+.for__admin .actions .set__discount .content span {
+  color: #25C685;
+}
